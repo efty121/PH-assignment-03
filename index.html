@@ -258,48 +258,90 @@
 
     </section>
 
+    <!-- unique section -->
+    <section class="max-w-full  bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="text-center mb-12">
+                <button class="bg-white text-[rgb(73,73,73)] font-bold py-2 px-4 rounded-full mb-4">
+                    <i class="fa-solid fa-arrow-right"></i> Our Happy Clients
+                </button>
+                <h1 class="lg:text-[40px] text-[34px] font-bold mb-4">Client Testimonials</h1>
+                <p class="text-gray-600 lg:px-60">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, and our clients love it too. Here’s what they have to say:</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
+                    <img src="./assets/client1.jpg" alt=""
+                        class="w-30 h-30 rounded-full mx-auto mb-4 border-4 border-gray-100 shadow-md bg-cover bg-center">
+                    <h3 class="text-2xl font-bold text-center text-gray-800">John Doe</h3>
+                    <p class="text-gray-600 mt-4 text-center">"Rinterio transformed our space into a stunning work of
+                        art. Their attention to detail and creative vision exceeded our expectations!"</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
+                    <img src="./assets/client2.jpg" alt=""
+                        class="w-30 h-30 rounded-full mx-auto mb-4 border-4 border-gray-100 shadow-md">
+                    <h3 class="text-2xl font-bold text-center text-gray-800">Jane Smith</h3>
+                    <p class="text-gray-600 mt-4 text-center">"The team at Rinterio was professional and communicative
+                        from start to finish. Our home has never looked better!"</p>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
+                    <img src="./assets/client3.jpg" alt=""
+                        class="w-30 h-30 rounded-full mx-auto mb-4 border-4 border-gray-100 shadow-md">
+                    <h3 class="text-2xl font-bold text-center text-gray-800">Michael Brown</h3>
+                    <p class="text-gray-600 mt-4 text-center">"We couldn’t be happier with the results. Rinterio truly
+                        captured our vision and brought it to life in ways we never imagined."</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="flex items-center justify-center min-h-screen bg-cover bg-center"
+
+    <section class="relative flex items-center justify-center min-h-screen bg-cover bg-center"
         style="background-image: url('./assets/bg.jpg');">
-        <div class=" p-8  w-full max-w-5xl md:mb-10 md:mt-10">
 
+        <div class="absolute inset-0 bg-white bg-opacity-70"></div>
 
+        <div class="relative p-8 w-full max-w-5xl md:mb-10 md:mt-10">
             <div class="text-center mb-6">
                 <button class="bg-lime-300 bg-opacity-20 text-[rgb(73,73,73)] font-bold py-2 px-4 rounded-full mb-4">
                     <i class="fa-solid fa-arrow-right"></i> Let’s Connect
                 </button>
                 <h1 class="lg:text-[40px] text-[34px] font-bold">Let's Discuss Next Project</h1>
-                <p class="text-gray-600 mt-2 lg:mx-40">The barn house captivates with its blend of rustic charm and modern
-                    sophistication, featuring weathered wood, sleek metal accents.</p>
+                <p class="text-gray-600 mt-2 lg:mx-40">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents.
+                </p>
             </div>
-
 
             <form>
                 <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div>
                         <input type="text" placeholder="First Name*"
-                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2   rounded-[64px] focus:outline-none "
+                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2 rounded-[64px] focus:outline-none"
                             required>
                     </div>
                     <div>
                         <input type="text" placeholder="Last Name*"
-                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2  rounded-[64px] focus:outline-none"
+                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2 rounded-[64px] focus:outline-none"
                             required>
                     </div>
                     <div>
                         <input type="tel" placeholder="Phone Number*"
-                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2  rounded-[64px] focus:outline-none "
+                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2 rounded-[64px] focus:outline-none"
                             required>
                     </div>
                     <div>
                         <input type="email" placeholder="Email Address*"
-                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2  rounded-[64px]  focus:outline-none "
+                            class="w-full md:w-[473px] md:h-[62px] px-4 py-2 rounded-[64px] focus:outline-none"
                             required>
                     </div>
                 </div>
                 <div class="mt-4">
                     <textarea placeholder="Write your message here"
-                        class="w-full md:w-[970px] md:h-[240px] px-4 py-2 h-32  rounded-[32px] focus:outline-none  "
+                        class="w-full md:w-[970px] md:h-[240px] px-4 py-2 h-[240px] rounded-[32px] focus:outline-none"
                         required></textarea>
                 </div>
                 <div class="mt-6 text-center">
@@ -311,12 +353,11 @@
                     </button>
                 </div>
             </form>
-
         </div>
     </section>
 
-    <!-- footer -->
 
+    <!-- footer -->
     <footer class="max-w-full flex flex-col text-center justify-center items-center bg-black p-6">
         <div class="flex items-center justify-center mt-6">
             <i
@@ -345,8 +386,6 @@
             </button>
         </div>
     </footer>
-
-
 
 
 </body>
